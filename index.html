@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container-advice">
+        <div class="container-title">
+          <h1 class="advice-h1">Advice</h1>
+          <span id="advice-num"></span>
+        </div>
+        <div class="container-quote">
+          <p id="quote"></p>
+        </div>
+        <div class="container-line">
+          <span class="line"></span><i class="fa-solid fa-pause"></i
+            ><span class="line"></span>
+        </div>
+        <button id="btn-random"><i class="fa-solid fa-dice-six"></i></button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
